@@ -479,6 +479,16 @@ body{
             font-size:50%
         }
     }
+@media(max-width:668px){
+        html{
+            font-size:40%
+        }
+    }
+@media(max-width:468px){
+        html{
+            font-size:30%
+        }
+    }
     
     
     
