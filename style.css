@@ -1,4 +1,6 @@
-
+html{
+    font-size: 80%;
+}
 
 body{
    
@@ -462,6 +464,20 @@ body{
     .taby{
        padding : 1.2rem;
        padding-bottom: 0rem;
+    }
+    @media(max-width:998px){
+        html{
+            font-size: 60%;
+        }
+    }
+    @media(max-width:998px){
+        html{
+            font-size: 60%;
+        }
+    }@media(max-width:768px){
+        html{
+            font-size:50%
+        }
     }
     
     
