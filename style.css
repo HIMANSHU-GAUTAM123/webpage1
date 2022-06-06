@@ -27,12 +27,12 @@ body{
         font-size: .60rem;
         text-transform: uppercase;
         letter-spacing: .1rem;
-        font-weight: 500;
+        font-weight: 50rem;
         color: #000;
         background-color: #ccd6f6;
         border: none;
         border-radius: 5rem;
-        box-shadow: 0px 1rem 2rem rgba(0, 0, 0, 0.1);
+        box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.1);
         transition: all 0.3s ease 0s;
         cursor: pointer;
         outline: none;
@@ -40,13 +40,13 @@ body{
       
     button:hover {
         background-color: #0a775d;
-        box-shadow: 0px 1.7rem 2rem rgba(46, 229, 157, 0.4);
+        box-shadow: 0rem 1.7rem 2rem rgba(46, 229, 157, 0.4);
         color: #ccd6f6;
-        transform: translateY(-7px);
+        transform: translateY(-.7rem);
       }
       
     button:active {
-        transform: translateY(-1px);
+        transform: translateY(-.1rem);
       }
     
     #hlist{
@@ -147,7 +147,7 @@ body{
     
     
     .ac{
-        padding: 0%;margin: 0%;
+        padding: 0rem;margin: 0rem;
         text-decoration: solid;
         color: #ccd6f6;
        left: 1.2rem;
@@ -155,26 +155,10 @@ body{
         font-weight: 1000;
         font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;;
     }
-    .jl button {
-        background-color: #112240; /* Green */
     
-        border: .2rem solid#64ffda ;
-        color: white;
-        padding: 1.2rem 3rem;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 1.4rem;
-        margin-bottom: 1.7rem;
-      }
-     .jl button:hover{
-          color: aliceblue;
-          font-weight: 900;
-          background-color: #233554;
-      }
       .second{
           padding: 2.8rem;
-          margin: 0;
+          margin: 0rem;
           font-style: oblique;
           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
           }
@@ -225,8 +209,8 @@ body{
     }
     
     .ho h1{ 
-       padding-top: 0px;
-       padding-bottom: 0px;
+       padding-top: 0rem;
+       padding-bottom: 0rem;
        color: #ccd6f6;
        margin-bottom: .4rem;
     }
@@ -248,6 +232,16 @@ body{
         
         
     }
+    .first button{
+        
+        margin: 0;
+        color:white;
+        border-radius: 2rem;
+        border-color: solid#64ffda ;
+        font-size: 1rem;
+        font-weight: 50rem;
+        background-color: #0a775d;
+    }
     /* .ho h1{
         text-decoration: #ccd6f6;
         
@@ -255,14 +249,14 @@ body{
       
      .insta{
          position: fixed;
-         left: 0px;
+         left: 0rem;
          top: 24rem;
          
          
      }
      .twitter {
         position: fixed;
-        left: 0px;
+        left: 0rem;
         top: 27rem;
         
         
@@ -314,8 +308,8 @@ body{
     }
     
     .vertical {
-      border-left: 4px solid #64ffda;
-      height: 700px;
+      border-left: 3px solid #64ffda;
+      height: 600px;
       position:absolute;
       top: 30vh;
       right: 30px;
@@ -466,8 +460,8 @@ body{
       }
     
     .taby{
-       padding : 120px;
-       padding-bottom: 0px;
+       padding : 1.2rem;
+       padding-bottom: 0rem;
     }
     
     
